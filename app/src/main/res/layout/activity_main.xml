@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="100sp"
+    android:rowCount="6"
+    android:columnCount="4"
+    android:useDefaultMargins="true"
+    tools:ignore="MissingConstraints">
+
+
+
+
+        <EditText
+            android:id="@+id/res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gris"
+            android:layout_gravity="fill"
+            android:layout_columnSpan="3"
+            android:layout_marginEnd="1dp"
+            />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gris"
+            android:layout_margin="1dp"
+            android:text="@string/div"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/one"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gris"
+            android:text="1"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:id="@+id/two"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gris"
+            android:text="2"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/three"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_columnSpan="1"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/mult"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/four"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/five"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/six"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/naqis"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/svn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/egt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/som"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_gravity="fill"
+            android:layout_rowSpan="3"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_gravity="fill"
+            android:layout_columnSpan="2"
+            android:layout_margin="1dp"
+            android:backgroundTint="@color/gris"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/pt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/eql"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:layout_margin="1dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+        <Button
+            android:id="@+id/clr"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:layout_margin="1dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/gris"
+
+            />
+
+
+
+
+
+
+
+</GridLayout>
